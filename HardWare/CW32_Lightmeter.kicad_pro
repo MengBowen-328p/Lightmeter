@@ -467,7 +467,7 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "CW32_Lightmeter.cad",
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
