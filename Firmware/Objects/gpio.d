@@ -1,0 +1,16 @@
+.\objects\gpio.o: Hardware\src\gpio.c
+.\objects\gpio.o: .\Hardware\inc\gpio.h
+.\objects\gpio.o: .\Libraries\inc\cw32f030_gpio.h
+.\objects\gpio.o: .\Libraries\inc\base_types.h
+.\objects\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\gpio.o: .\Libraries\inc\cw32f030.h
+.\objects\gpio.o: .\Libraries\inc\core_cm0plus.h
+.\objects\gpio.o: .\Libraries\inc\cmsis_version.h
+.\objects\gpio.o: .\Libraries\inc\cmsis_compiler.h
+.\objects\gpio.o: .\Libraries\inc\cmsis_armcc.h
+.\objects\gpio.o: .\Libraries\inc\system_cw32f030.h
+.\objects\gpio.o: .\Libraries\inc\cw32f030_rcc.h
