@@ -23,6 +23,6 @@ void OLED::showStartScreen(void)            //Show Start Page
 void OLED::showMenu(void)
 {
     Screen.setFont(u8g2_font_04b_03_tr);
-
-
+    Screen.setCursor(0,0);
+    Screen.sendBuffer();
 }

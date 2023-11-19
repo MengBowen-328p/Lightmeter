@@ -5,6 +5,8 @@
 #include <button.h>
 #include <oled.h>
 
+uint8_t  button_state = 0;
+
 OLED oled;
 Button button;
 
@@ -21,5 +23,6 @@ button.buttonInit();
 }
 
 void loop() {
+    button_state = button.buttonScan();
 // write your code here
 }
