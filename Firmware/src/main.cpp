@@ -4,11 +4,14 @@
 #include <BH1750.h>
 #include <button.h>
 #include <oled.h>
+#include <index.h>
 
 uint8_t  button_state = 0;
 
 OLED oled;
 Button button;
+INDEX para;
+
 
 
 

@@ -15,6 +15,12 @@
 #define METERINGMODE_ADDR       5
 #define NDINDEX_ADDR            6
 
+#define MaxISOIndex             57
+#define MaxApertureIndex        70
+#define MaxTimeIndex            80
+#define MaxNDIndex              13
+#define MaxFlashMeteringTime    5000                    // ms
+
 class INDEX
 {
 private:

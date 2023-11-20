@@ -24,7 +24,7 @@ uint8_t INDEX::getTexpIndex(void)
 
 uint8_t INDEX::getModelIndex(void)
 {
-    mode_index = EEPROM.read(METERINGMODE_ADDR);
+    mode_index = EEPROM.read(MODEINDEX_ADDR);
     return mode_index;
 }
 
