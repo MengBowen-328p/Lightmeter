@@ -17,7 +17,9 @@ class OLED
 public:
     void oledInit(void);
     void showStartScreen(void);
-    void showMenu(void);
+    void showMainMenu(uint8_t menu_page);
+    void showLuxMenu(void);
+    void showNDMenu(void);
 };
 
 #endif //FIRMWARE_OLED_H

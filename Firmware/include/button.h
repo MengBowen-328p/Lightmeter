@@ -7,9 +7,9 @@
 
 #include <Arduino.h>
 
-#define BUTTON_UP PB2
-#define BUTTON_ENTER PB1
-#define BUTTON_DOWN PB0
+#define BUTTON_UP PB13
+#define BUTTON_ENTER PB14
+#define BUTTON_DOWN PB15
 
 class Button
 {

@@ -13,7 +13,7 @@ void Button::buttonInit(void)
 
 uint8_t Button::buttonScan(void)
 {
-    uint8_t button_state = 0;
+    uint8_t button_state = 4;
     if (digitalRead(BUTTON_UP) == 0)
     {
         button_state = 1;
